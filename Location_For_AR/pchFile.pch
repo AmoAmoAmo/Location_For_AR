@@ -1,0 +1,35 @@
+//
+//  pchFile.pch
+//  Location_For_AR
+//
+//  Created by Josie on 2017/7/7.
+//  Copyright © 2017年 Josie. All rights reserved.
+//
+
+#ifndef pchFile_pch
+#define pchFile_pch
+
+#define SCREEN_WIDTH     [UIScreen mainScreen].bounds.size.width
+#define SCREEN_HEIGHT    [UIScreen mainScreen].bounds.size.height
+
+#define Y1               50
+#define Y2               SCREEN_HEIGHT - 250
+#define Y3               SCREEN_HEIGHT - 64
+
+
+//   annotationView的宽高
+#define ANNOTATION_WIDTH    70
+#define ANNOTATION_HEIGHT   100
+
+// popView的大小
+#define POP_WIDTH           80
+#define POP_HEIGHT          50
+
+#define RADAR_WIDTH         150    // 雷达图的宽度 （正方形）
+
+#define HORIZONTAL_DEGREE   69.9      // 摄像头水平方向能够拍摄到的范围
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* pchFile_pch */

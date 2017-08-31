@@ -11,8 +11,19 @@
 		C42D19BD1EFE9AD900202A77 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C42D19BC1EFE9AD900202A77 /* AppDelegate.m */; };
 		C42D19C01EFE9AD900202A77 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C42D19BF1EFE9AD900202A77 /* ViewController.m */; };
 		C42D19C31EFE9AD900202A77 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C42D19C11EFE9AD900202A77 /* Main.storyboard */; };
-		C42D19C51EFE9AD900202A77 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C42D19C41EFE9AD900202A77 /* Assets.xcassets */; };
 		C42D19C81EFE9AD900202A77 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C42D19C61EFE9AD900202A77 /* LaunchScreen.storyboard */; };
+		C42D19D11EFE9BF200202A77 /* RadarView.m in Sources */ = {isa = PBXBuildFile; fileRef = C42D19D01EFE9BF200202A77 /* RadarView.m */; };
+		C42D19D41F00C18000202A77 /* AVCaptureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C42D19D31F00C18000202A77 /* AVCaptureViewController.m */; };
+		C42D19D71F02023400202A77 /* ArcView.m in Sources */ = {isa = PBXBuildFile; fileRef = C42D19D61F02023400202A77 /* ArcView.m */; };
+		C42D19DA1F0273CE00202A77 /* BigImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = C42D19D91F0273CE00202A77 /* BigImageView.m */; };
+		C42D19DD1F0364A400202A77 /* DotView.m in Sources */ = {isa = PBXBuildFile; fileRef = C42D19DC1F0364A400202A77 /* DotView.m */; };
+		C43256F51F0A5D920064188D /* SearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C43256F41F0A5D920064188D /* SearchViewController.m */; };
+		C44C73821F04B718002A86A4 /* AnnotaionView.m in Sources */ = {isa = PBXBuildFile; fileRef = C44C73811F04B718002A86A4 /* AnnotaionView.m */; };
+		C470A0A01F0629B4007D8E20 /* PointModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C470A09F1F0629B4007D8E20 /* PointModel.m */; };
+		C470A0A31F0640AB007D8E20 /* BackgroundView.m in Sources */ = {isa = PBXBuildFile; fileRef = C470A0A21F0640AB007D8E20 /* BackgroundView.m */; };
+		C470A0A61F06768C007D8E20 /* Assets 19-57-04-374.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C470A0A51F06768C007D8E20 /* Assets 19-57-04-374.xcassets */; };
+		C47867941F0FA73F00FB708A /* PopView.m in Sources */ = {isa = PBXBuildFile; fileRef = C47867931F0FA73F00FB708A /* PopView.m */; };
+		C478679C1F12181C00FB708A /* HJMotion.m in Sources */ = {isa = PBXBuildFile; fileRef = C478679B1F12181C00FB708A /* HJMotion.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,9 +34,32 @@
 		C42D19BE1EFE9AD900202A77 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		C42D19BF1EFE9AD900202A77 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		C42D19C21EFE9AD900202A77 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		C42D19C41EFE9AD900202A77 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C42D19C71EFE9AD900202A77 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C42D19C91EFE9AD900202A77 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C42D19CF1EFE9BF200202A77 /* RadarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RadarView.h; sourceTree = "<group>"; };
+		C42D19D01EFE9BF200202A77 /* RadarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RadarView.m; sourceTree = "<group>"; };
+		C42D19D21F00C18000202A77 /* AVCaptureViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AVCaptureViewController.h; sourceTree = "<group>"; };
+		C42D19D31F00C18000202A77 /* AVCaptureViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AVCaptureViewController.m; sourceTree = "<group>"; };
+		C42D19D51F02023400202A77 /* ArcView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArcView.h; sourceTree = "<group>"; };
+		C42D19D61F02023400202A77 /* ArcView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArcView.m; sourceTree = "<group>"; };
+		C42D19D81F0273CE00202A77 /* BigImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BigImageView.h; sourceTree = "<group>"; };
+		C42D19D91F0273CE00202A77 /* BigImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BigImageView.m; sourceTree = "<group>"; };
+		C42D19DB1F0364A400202A77 /* DotView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DotView.h; sourceTree = "<group>"; };
+		C42D19DC1F0364A400202A77 /* DotView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DotView.m; sourceTree = "<group>"; };
+		C43256F31F0A5D920064188D /* SearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchViewController.h; sourceTree = "<group>"; };
+		C43256F41F0A5D920064188D /* SearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchViewController.m; sourceTree = "<group>"; };
+		C44C73801F04B718002A86A4 /* AnnotaionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnnotaionView.h; sourceTree = "<group>"; };
+		C44C73811F04B718002A86A4 /* AnnotaionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnnotaionView.m; sourceTree = "<group>"; };
+		C470A09E1F0629B4007D8E20 /* PointModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PointModel.h; sourceTree = "<group>"; };
+		C470A09F1F0629B4007D8E20 /* PointModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PointModel.m; sourceTree = "<group>"; };
+		C470A0A11F0640AB007D8E20 /* BackgroundView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BackgroundView.h; sourceTree = "<group>"; };
+		C470A0A21F0640AB007D8E20 /* BackgroundView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BackgroundView.m; sourceTree = "<group>"; };
+		C470A0A51F06768C007D8E20 /* Assets 19-57-04-374.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Assets 19-57-04-374.xcassets"; sourceTree = "<group>"; };
+		C47867911F0F6EFF00FB708A /* pchFile.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = pchFile.pch; sourceTree = "<group>"; };
+		C47867921F0FA73F00FB708A /* PopView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PopView.h; sourceTree = "<group>"; };
+		C47867931F0FA73F00FB708A /* PopView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PopView.m; sourceTree = "<group>"; };
+		C478679A1F12181C00FB708A /* HJMotion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HJMotion.h; sourceTree = "<group>"; };
+		C478679B1F12181C00FB708A /* HJMotion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HJMotion.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,11 +96,20 @@
 				C42D19BC1EFE9AD900202A77 /* AppDelegate.m */,
 				C42D19BE1EFE9AD900202A77 /* ViewController.h */,
 				C42D19BF1EFE9AD900202A77 /* ViewController.m */,
+				C42D19D21F00C18000202A77 /* AVCaptureViewController.h */,
+				C42D19D31F00C18000202A77 /* AVCaptureViewController.m */,
+				C43256F31F0A5D920064188D /* SearchViewController.h */,
+				C43256F41F0A5D920064188D /* SearchViewController.m */,
+				C478679A1F12181C00FB708A /* HJMotion.h */,
+				C478679B1F12181C00FB708A /* HJMotion.m */,
+				C42D19DE1F0365DC00202A77 /* 雷达 */,
+				C470A0A41F064346007D8E20 /* Point */,
 				C42D19C11EFE9AD900202A77 /* Main.storyboard */,
-				C42D19C41EFE9AD900202A77 /* Assets.xcassets */,
+				C470A0A51F06768C007D8E20 /* Assets 19-57-04-374.xcassets */,
 				C42D19C61EFE9AD900202A77 /* LaunchScreen.storyboard */,
 				C42D19C91EFE9AD900202A77 /* Info.plist */,
 				C42D19B81EFE9AD900202A77 /* Supporting Files */,
+				C47867911F0F6EFF00FB708A /* pchFile.pch */,
 			);
 			path = Location_For_AR;
 			sourceTree = "<group>";
@@ -77,6 +120,36 @@
 				C42D19B91EFE9AD900202A77 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C42D19DE1F0365DC00202A77 /* 雷达 */ = {
+			isa = PBXGroup;
+			children = (
+				C42D19CF1EFE9BF200202A77 /* RadarView.h */,
+				C42D19D01EFE9BF200202A77 /* RadarView.m */,
+				C42D19D51F02023400202A77 /* ArcView.h */,
+				C42D19D61F02023400202A77 /* ArcView.m */,
+				C42D19DB1F0364A400202A77 /* DotView.h */,
+				C42D19DC1F0364A400202A77 /* DotView.m */,
+			);
+			name = "雷达";
+			sourceTree = "<group>";
+		};
+		C470A0A41F064346007D8E20 /* Point */ = {
+			isa = PBXGroup;
+			children = (
+				C470A09E1F0629B4007D8E20 /* PointModel.h */,
+				C470A09F1F0629B4007D8E20 /* PointModel.m */,
+				C42D19D81F0273CE00202A77 /* BigImageView.h */,
+				C42D19D91F0273CE00202A77 /* BigImageView.m */,
+				C44C73801F04B718002A86A4 /* AnnotaionView.h */,
+				C44C73811F04B718002A86A4 /* AnnotaionView.m */,
+				C470A0A11F0640AB007D8E20 /* BackgroundView.h */,
+				C470A0A21F0640AB007D8E20 /* BackgroundView.m */,
+				C47867921F0FA73F00FB708A /* PopView.h */,
+				C47867931F0FA73F00FB708A /* PopView.m */,
+			);
+			name = Point;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,8 +211,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C470A0A61F06768C007D8E20 /* Assets 19-57-04-374.xcassets in Resources */,
 				C42D19C81EFE9AD900202A77 /* LaunchScreen.storyboard in Resources */,
-				C42D19C51EFE9AD900202A77 /* Assets.xcassets in Resources */,
 				C42D19C31EFE9AD900202A77 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -151,9 +224,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C42D19DA1F0273CE00202A77 /* BigImageView.m in Sources */,
+				C42D19D11EFE9BF200202A77 /* RadarView.m in Sources */,
+				C470A0A31F0640AB007D8E20 /* BackgroundView.m in Sources */,
+				C478679C1F12181C00FB708A /* HJMotion.m in Sources */,
+				C42D19D41F00C18000202A77 /* AVCaptureViewController.m in Sources */,
 				C42D19C01EFE9AD900202A77 /* ViewController.m in Sources */,
 				C42D19BD1EFE9AD900202A77 /* AppDelegate.m in Sources */,
+				C47867941F0FA73F00FB708A /* PopView.m in Sources */,
+				C44C73821F04B718002A86A4 /* AnnotaionView.m in Sources */,
 				C42D19BA1EFE9AD900202A77 /* main.m in Sources */,
+				C470A0A01F0629B4007D8E20 /* PointModel.m in Sources */,
+				C42D19DD1F0364A400202A77 /* DotView.m in Sources */,
+				C43256F51F0A5D920064188D /* SearchViewController.m in Sources */,
+				C42D19D71F02023400202A77 /* ArcView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,11 +357,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = 229XF58NF5;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/Location_For_AR/pchFile.pch";
 				INFOPLIST_FILE = Location_For_AR/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.josie.Location-For-AR";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.josie.--2-Test-7-Last";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Debug;
 		};
@@ -285,11 +372,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = 229XF58NF5;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/Location_For_AR/pchFile.pch";
 				INFOPLIST_FILE = Location_For_AR/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.josie.Location-For-AR";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.josie.--2-Test-7-Last";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Release;
 		};
@@ -312,6 +402,7 @@
 				C42D19CE1EFE9AD900202A77 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
