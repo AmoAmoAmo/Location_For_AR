@@ -7,8 +7,13 @@
 //
 
 #import "ViewController.h"
+#import <AVFoundation/AVFoundation.h>
+#import "AVCaptureViewController.h"
+
 
 @interface ViewController ()
+
+@property (nonatomic, strong) UIButton *button;
 
 @end
 
@@ -16,14 +21,46 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+    
+    [self setUI];
+    
+}
+
+#pragma mark - Methods
+- (void)setUI
+{
+    self.view.backgroundColor = [UIColor whiteColor];
+    
+    [self.view addSubview:self.button];
+    
+}
+
+- (void)pressBtn
+{
+//    AVCaptureViewController *vc = [[AVCaptureViewController alloc] init];
+//    [self presentViewController:vc animated:YES completion:nil];
+    [self dismissViewControllerAnimated:YES completion:nil];
 }
 
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+
+#pragma mark - 懒加载
+-(UIButton *)button
+{
+    if (!_button) {
+        _button = [UIButton buttonWithType:UIButtonTypeSystem];
+        _button.frame = CGRectMake(100, 100, 100, 30);
+        [_button setTitle:@"退出" forState:UIControlStateNormal];
+        [_button setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
+//        _button.backgroundColor = [UIColor grayColor];
+
+        [_button addTarget:self action:@selector(pressBtn) forControlEvents:UIControlEventTouchUpInside];
+    }
+    return _button;
 }
+
+
 
 
 @end
