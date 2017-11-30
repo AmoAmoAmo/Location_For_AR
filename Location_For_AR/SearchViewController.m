@@ -188,8 +188,10 @@
     // 代码触发Button的点击事件
     [cancelBtn sendActionsForControlEvents:UIControlEventTouchUpInside];
     
+    // -------- 将文字显示在searchBar.text上 ---------
+    self.searchController.searchBar.text = [NSString stringWithFormat:@"%@",self.dataArray[indexPath.row]];
     
-    // delegate
+    // -------- delegate ----------
     if ([_delegate respondsToSelector:@selector(getSearchBarText:)]) {
         // 通知代理执行协议方法
         [_delegate getSearchBarText:[NSString stringWithFormat:@"%@",self.dataArray[indexPath.row]]];

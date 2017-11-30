@@ -58,22 +58,22 @@
     
     
     // 点击point，出现一个显示细节的view
-    float margin = 2;
-    float popX = -(POP_WIDTH-ANNOTATION_WIDTH)/2.0;
+    float margin = 2;  // 弹性动画的幅度
+    float popX = -(POP_WIDTH-ANNOTATION_WIDTH)/2.0;  //popView放大后的位置X
     if (!_isShow) { // 如果这个view没有被显示时就让它显示 , 动画：放大
         [self addSubview:self.popView];
         _isShow = YES;
         
-        self.popView.frame = CGRectMake(ANNOTATION_WIDTH/2.0, 0, 1, 1);
+        self.popView.frame = CGRectMake(ANNOTATION_WIDTH/2.0, 0, 0.1, 0.1);// popView做动画前的位置
+        
         [UIView animateWithDuration:0.4 animations:^{
             self.popView.frame = CGRectMake(popX-margin, -POP_HEIGHT-margin, POP_WIDTH+2*margin, POP_HEIGHT+margin);
-//            self.popView.nameLabel.frame = CGRectMake(popX-margin, -POP_HEIGHT-margin, POP_WIDTH+2*margin, POP_HEIGHT+margin);
-//            self.popView.subLabel.frame = CGRectMake(popX-margin, -POP_HEIGHT-margin, POP_WIDTH+2*margin, POP_HEIGHT+margin);
+
         }completion:^(BOOL finished) {
             // 弹性动画
-            [UIView animateWithDuration:0.2 animations:^{
-                self.popView.frame = CGRectMake(popX, -POP_HEIGHT, POP_WIDTH, POP_HEIGHT);
-            }];
+//            [UIView animateWithDuration:0.2 animations:^{
+//                self.popView.frame = CGRectMake(popX, -POP_HEIGHT, POP_WIDTH, POP_HEIGHT);
+//            }];
         }];
     }else{
         // 如果已经显示，就让它消失，  动画：缩小
@@ -189,8 +189,7 @@
 -(PopView *)popView
 {
     if (!_popView) {
-        _popView = [[PopView alloc] init];
-        _popView.frame = CGRectMake(-20, -50, POP_WIDTH, POP_HEIGHT);
+        _popView = [[PopView alloc] initWithFrame:CGRectMake(-20, -50, POP_WIDTH, POP_HEIGHT)];
         _popView.nameLabel.text = self.model.name;
         _popView.subLabel.text = [NSString stringWithFormat:@"%f",self.model.distance];
 //        _popView.backgroundColor = [UIColor blueColor];
